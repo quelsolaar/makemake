@@ -36,15 +36,15 @@ To use the options on the comand line use "-" followed by the option name and op
     Example: To build project with a specifird name you may call:
     ./makemake ./example.c -name my_example
 
-To use options from within a .c or .h file, add makemake pragma in the following format:
+To use options from within a .c or .h file, add MakeMake pragma in the following format:
 
-    #pragma makeamke <option name> <option value> <optional platform>
+    #pragma makemake <option name> <option value> <optional platform>
 
 If for instanc you have a .c file that depends on PTreads on posix platforms, you may add the pragma:
 
     #pragma makemake lib lpthread posix
 
-The MakeAMke can also generate the MakeMakeMake script by calling:
+The MakeMake can also generate the MakeMakeMake script by calling:
 
     ./makemake makemakemakemake
 
