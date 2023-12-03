@@ -1,0 +1,1 @@
+extern void my_test_function();
