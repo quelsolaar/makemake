@@ -23,13 +23,19 @@ The C file path will be used to identify the starting C file and the path where 
 
 MakeMake can be given opetions in two ways, either using the comand line, or as pragmas in the .c and .h files. Each option consists of key-value pair, the name of the option and what the option is set to. The available options are:
 
--name <name> Name of the executable.
--makefile <name> Name of the make file (or stdout).
--compilerflag <flag> Custom compiler flags.
--platform <name> Platform define.
--dynamiclib <no option> builds the application as a dynamicly linked library.
--lib <name> Library dependency.
--define <name> Adds a define.
+`-name` <name> Name of the executable.
+
+`-makefile` <name> Name of the make file (or stdout).
+
+`-compilerflag` <flag> Custom compiler flags.
+
+`-platform` <name> Platform.
+
+`-dynamiclib` <no option> builds the application as a dynamicly linked library.
+
+`-lib` <name> Library dependency.
+
+`-define` <name> Adds a define.
 
 To use the options on the comand line use "-" followed by the option name and option. 
 
