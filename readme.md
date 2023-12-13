@@ -70,7 +70,7 @@ MakeMake comes with a simple "hello world" test project, called makemake_test...
     chmod -x makemakemake.sh
     ./makemakemake.sh ./makemake_test_one.c
 
-The file makemake_test_one.c, will include makemake_test_two.h that declares a funtion defined in makemake_test_three.c
+The file makemake_test_one.c, will include makemake_test_two.h that declares a function defined in makemake_test_three.c
 
 ### About the project
 
